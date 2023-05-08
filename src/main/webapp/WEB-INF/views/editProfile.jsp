@@ -66,15 +66,15 @@
                             </div>
                             <div class="row-half">
                                 <label>연봉</label>
-                                <div style="display:flex">
-                                <input type="number" id="mb_salary" name="mb_salary" value="${membery.mb_salary}" class="form-control margin-bottom-20 join-placeholderR" autocomplete="off">
-                                <label style="padding-top: 15px;padding-left: 5px;">만원</label>
+                                <div style="display:flex;">
+                                <input type="number" id="mb_salary" name="mb_salary" value="${membery.mb_salary}" class="form-control margin-bottom-20 join-placeholderR" style="width:50%;" autocomplete="off">
+                                <label style="padding-top: 8px;padding-left: 5px;font-size:18px;">만원</label>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row-half">
                                 <div class="row-in">
                                     <label>비밀번호</label>
-                                    <input type="password" id="mb_pwd" name="mb_pwd" class="form-control margin-bottom-20" autocomplete="off">
+                                    <input type="password" id="mb_pwd" name="mb_pwd" class="form-control margin-bottom-20" autocomplete="off" style="width:150px;">
                                     <p id="checkPwd"></p>
                                 </div>
                             </div>
